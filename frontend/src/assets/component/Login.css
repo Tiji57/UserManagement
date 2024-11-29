@@ -1,0 +1,91 @@
+/* General styling for the login page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+  margin: 0;
+}
+
+/* Styling for the form card */
+.login-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Form title */
+.login-card h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Styling for form groups (labels, inputs, etc.) */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Input fields styling */
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Input styling */
+.form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border: 1px solid #007bff;
+  outline: none;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Small text for links or additional options */
+.small-text {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #555;
+}

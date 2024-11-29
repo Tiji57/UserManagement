@@ -1,0 +1,109 @@
+/* General styling for the signup page */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+  margin: 0;
+}
+
+/* Styling for the signup form card */
+.signup-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Form title */
+.signup-form h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for form groups (labels, inputs, etc.) */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Input field labels */
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Styling for input fields */
+.form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border: 1px solid #007bff;
+  outline: none;
+}
+
+/* Button styles for Register and Cancel buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.register-button,
+.cancel-button {
+  width: 48%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Register button style */
+.register-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+/* Cancel button style */
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Adding spacing between buttons */
+button[type="button"] {
+  margin-left: 10px;
+}
+
+/* Optional: Add some spacing around the form */
+.signup-form p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
